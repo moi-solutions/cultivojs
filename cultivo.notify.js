@@ -38,6 +38,7 @@ Cultivo.prototype.notify = function(params) {
         title: params.title,
         message: params.message,
         icon: icons[position],
+        info: ''
       },
       theme: themes[position],
       closeButton: true,
