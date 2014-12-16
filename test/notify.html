@@ -10,32 +10,31 @@
   <script src="../bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
   <script src="../bower_components/amaranjs/dist/js/jquery.amaran.min.js" type="text/javascript"></script>
   <script src="../cultivo.js" type="text/javascript"></script>
+  <script src="../cultivo.notify.js" type="text/javascript"></script>
   <script>
     var cultivo = new Cultivo();
 
-    cultivo.notify({
-      type: 'info',
+    cultivo.notifyInfo({
       title: 'Title Info',
       message: 'Message Info'
     });
 
-    cultivo.notify({
-      type: 'danger',
+    cultivo.notifyDanger({
       title: 'Title Danger',
       message: 'Message Danger'
     });
 
-    cultivo.notify({
-      type: 'warning',
+    cultivo.notifyWarning({
       title: 'Title Warning',
       message: 'Message Warning'
     });
 
-    cultivo.notify({
-      type: 'success',
+    cultivo.notifySuccess({
       title: 'Title Success',
       message: 'Message Success'
     });
+
+
   </script>
 </body>
 </html>
