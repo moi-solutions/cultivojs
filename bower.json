@@ -14,5 +14,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "amaranjs": "~0.5.2",
+    "fontawesome": "~4.2.0"
+  }
 }
