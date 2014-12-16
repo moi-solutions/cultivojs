@@ -101,7 +101,7 @@ Cultivo.prototype.notifyWarning = function(params) {
 */
 Cultivo.prototype.notifySuccess = function(params) {
   this.notify({
-    type: 'successs',
+    type: 'success',
     title: params.title,
     message: params.message
   });
