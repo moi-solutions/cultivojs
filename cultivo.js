@@ -5,6 +5,14 @@ var Cultivo = function() {
 
 }
 
+/**
+* Notify
+* @param {Object} params
+* params.type {String}
+* params.title {String}
+* params.message {String}
+* type ['info', 'danger', 'warning', 'success']
+*/
 Cultivo.prototype.notify = function(params) {
   var params = params || {};
   params.type = params.type || 'info';
