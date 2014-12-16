@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>date</title>
+</head>
+<body>
+
+<script src="../bower_components/moment/moment.js" type="text/javascript"></script>
+<script src="../cultivo.js" type="text/javascript"></script>
+<script src="../cultivo.date.js" type="text/javascript"></script>
+<script>
+var cultivo = new Cultivo();
+
+var date1 = cultivo.dateConvert(new Date());
+var date2 = cultivo.dateMake(new Date());
+
+var p1 = document.createElement('p');
+p1.innerHTML = date1;
+document.body.appendChild(p1);
+
+var p2 = document.createElement('p');
+p2.innerHTML = date2;
+document.body.appendChild(p2);
+</script>
+</body>
+</html>
