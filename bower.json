@@ -1,0 +1,22 @@
+{
+  "name": "cultivojs",
+  "version": "0.0.0",
+  "homepage": "https://github.com/moi-team/cultivojs",
+  "authors": [
+    "Paulo McNally <paulomcnally@gmail.com>"
+  ],
+  "description": "Biblioteca de JavaScript que extiende funcionalidades personalizadas de plugins de jQuery",
+  "main": "cultivo.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "amaranjs": "~0.5.2",
+    "fontawesome": "~4.2.0"
+  }
+}
