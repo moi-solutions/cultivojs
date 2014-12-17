@@ -2,9 +2,9 @@ Cultivo.prototype.datatable = function(table, targets) {
   $(table).dataTable({
     'responsive': true,
     'language': {
-      'lengthMenu': 'Mostrar _MENU_ registros por pagina',
+      'lengthMenu': 'Mostrar _MENU_ registros por página',
       'zeroRecords': 'No se encontraron registros',
-      'info': 'Mostrando pagina _PAGE_ de _PAGES_',
+      'info': 'Mostrando página _PAGE_ de _PAGES_',
       'infoEmpty': 'No hay registros disponibles',
       'infoFiltered': '(filtrados de un total de _MAX_ registros)',
       'search':'Buscar',
