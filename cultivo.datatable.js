@@ -1,5 +1,6 @@
-Cultivo.prototype.datatable = function(table, targets) {
-  $(table).dataTable({
+Cultivo.prototype.datatable = function(table, targets, order) {
+    order = order || [[ 0, "asc" ]];
+    $(table).dataTable({
     'responsive': true,
     'language': {
       'lengthMenu': 'Mostrar _MENU_ registros por página',
@@ -18,6 +19,7 @@ Cultivo.prototype.datatable = function(table, targets) {
       'orderable': false,
       'targets': targets
     }
-    ]
+    ],
+    "order":order
   });
 }
