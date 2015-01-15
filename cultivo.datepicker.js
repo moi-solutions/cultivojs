@@ -1,7 +1,8 @@
-Cultivo.prototype.datepicker = function (input, daysOfWeekDisabled) {
+Cultivo.prototype.datepicker = function (input, daysOfWeekDisabled,todayBtn) {
     daysOfWeekDisabled = daysOfWeekDisabled || [];
+    todayBtn = todayBtn || 'linked';
     $(input).datepicker({
-    todayBtn: 'linked',
+    todayBtn: todayBtn,
     format: 'dd/mm/yyyy',
     language: 'es',
     keyboardNavigation: false,
