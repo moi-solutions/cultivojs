@@ -20,6 +20,6 @@ Cultivo.prototype.datatable = function(table, targets, order) {
       'targets': targets
     }
     ],
-    "order":order
+    'order':order
   });
 }
